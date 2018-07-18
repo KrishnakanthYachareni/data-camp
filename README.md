@@ -21,7 +21,7 @@ One of those file types is the CSV file, which is short for "comma-separated val
 1. Column Access:
 dataframe[["column_name"]]
 2. Row Access:
-..* loc-labled access
+	* loc-labled access
 	dataframe.loc[["index_name/row name"]]
-..* iloc-index access
+	* iloc-index access
 	dataframe.iloc[["index_number"]]
