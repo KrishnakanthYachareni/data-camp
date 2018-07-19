@@ -26,6 +26,5 @@ dataframe[["column_name"]]
 	* **iloc-index access**
 	dataframe.iloc[["index_number"]]
 ```
-Note:  np.logical_and(), np.logical_or() and np.logical_not(), 
-the Numpy variants of the and, or and not operators
+Note:  np.logical_and(), np.logical_or() and np.logical_not(), the Numpy variants of the and, or and not operators
 ```
