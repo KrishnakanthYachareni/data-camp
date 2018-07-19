@@ -25,6 +25,16 @@ dataframe[["column_name"]]
 	dataframe.loc[["index_name/row name"]]
 	* **iloc-index access**
 	dataframe.iloc[["index_number"]]
+### NumPy array comparison:
 ```
 Note:  np.logical_and(), np.logical_or() and np.logical_not(), the Numpy variants of the and, or and not operators
+```
+### Looping Data Structures:
+1. Dictionary:
+```
+for key, val in my_dict.items()
+```
+2. Numpy array:(2d or more dimensional array)
+```
+for val in np.nditer(my_array)
 ```
