@@ -122,8 +122,8 @@ result = reduce(lambda item1, item2 : item1 + item2, stark)
 print(result)
 
 ```
+### Zip()
 ``` Python
-### Zip
 In [1]: avengers = ['hawkeye', 'iron man', 'thor', 'quicksilver'] 
 In [2]: names = ['barton', 'stark', 'odinson', 'maximoff'] 
 In [3]: z = zip(avengers, names) 
