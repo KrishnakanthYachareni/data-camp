@@ -75,7 +75,7 @@ plt.plot(np_aw_t)
 plt.show()
 ```
 
-### Lambda Expressions with map()
+### Lambda Expression with map()
 ``` Python
 # Create a list of strings: spells
 spells = ["protego", "accio", "expecto patronum", "legilimens"]
@@ -88,5 +88,20 @@ shout_spells_list = list(shout_spells)
 
 # Convert shout_spells into a list and print it
 print(shout_spells_list)
+
+```
+### Lambda Expression with filter()
+``` Python
+# Create a list of strings: fellowship
+fellowship = ['frodo', 'samwise', 'merry', 'pippin', 'aragorn', 'boromir', 'legolas', 'gimli', 'gandalf']
+
+# Use filter() to apply a lambda function over fellowship: result
+result = filter(lambda member : len(member) > 6, fellowship)
+
+# Convert result to a list: result_list
+result_list = list(result)
+
+# Convert result into a list and print it
+print(result_list)
 
 ```
