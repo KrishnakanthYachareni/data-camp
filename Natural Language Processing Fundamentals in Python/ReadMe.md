@@ -13,3 +13,15 @@ parse text as you move forward in your Python learning.
 2. Translation
 3. Sentiment analysis ...
 4. and many	more!
+
+### Common	Regex	Patterns
+
+| Pattern        | matches      | Example |
+| ------------- |:-------------:| -----:|
+|\w+ | word |'Magic'| 
+|\d | digit |9|
+| \s |space |'	'| 
+|.* | wildcard |'username74'|
+| +	or *| greedy match |'aaaaaa'| 
+|\S | not space |'no_spaces'| 
+|[a-z]| lowercase group |'abcdefg|
