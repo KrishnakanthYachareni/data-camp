@@ -20,8 +20,16 @@ parse text as you move forward in your Python learning.
 | ------------- |:-------------:| -----:|
 |\w+ | word |'Magic'| 
 |\d | digit |9|
-| \s |space |'	'| 
+| \s |space |' '| 
 |.* | wildcard |'username74'|
 | +	or *| greedy match |'aaaaaa'| 
 |\S | not space |'no_spaces'| 
 |[a-z]| lowercase group |'abcdefg|
+``` 
+NoTE:
+
+It's important to prefix your regex patterns with r to ensure that your patterns are interpreted in the way you want them to.
+Else, you may encounter problems to do with escape sequences in strings. For example, "\n" in Python is used to indicate a new line,
+but if you use the r prefix, it will be interpreted as the raw string "\n" - that is, the character "\" followed by
+the character "n" - and not as a new line
+``` 
