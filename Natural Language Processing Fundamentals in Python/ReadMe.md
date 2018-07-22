@@ -5,10 +5,10 @@ alongside libraries which utilize deep learning to solve common NLP problems. Th
 parse text as you move forward in your Python learning.
 
 ### What is	Natural	Language	Processing? 
-Field of study focused on making sense of language Using statistics	and	computers You will learn the basics	of NLP.
+··* Field of study focused on making sense of language Using statistics	and	computers You will learn the basics	of NLP.
 1. Topic identification
 2. Text	classification
-NLP	applications include: 
+··* NLP	applications include: 
 1. Chatbots
 2. Translation
 3. Sentiment analysis ...
