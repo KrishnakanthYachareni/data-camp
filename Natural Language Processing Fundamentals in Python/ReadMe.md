@@ -57,3 +57,9 @@ digits = r"\d+"
 print(re.findall(digits, my_string))
 
 ``` 
+### What is tokenization
+* Turning	a string or document into tokens (smaller chunks) One step in preparing	a text for NL.
+* nltk:	natural	language toolkit library provide tokenization. some of the examples are
+1. sent_tokenize: tokenize a document	into	sentences
+2. regexp_tokenize:	tokenize	a	string	or	document	based	on	a	regular expression	pattern
+3. TweetTokenizer:	special	class	just	for	tweet	tokenization,	allowing	you to	separate	hashtags,	mentions	and	lots	of	exclamation	points!!
