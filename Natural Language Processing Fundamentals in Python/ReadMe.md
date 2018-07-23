@@ -63,3 +63,11 @@ print(re.findall(digits, my_string))
 1. **sent_tokenize:** tokenize a document	into	sentences
 2. **regexp_tokenize:**	tokenize	a	string	or	document	based	on	a	regular expression	pattern
 3. **TweetTokenizer:**	special	class	just	for	tweet	tokenization,	allowing	you to	separate	hashtags,	mentions	and	lots	of	exclamation	points!!
+### Common	Regex	Patterns
+| Pattern        | matches      | Example |
+| ------------- |:-------------:| -----:|
+|[A-Za-z]+ |upper and lowercase English alphabet |'ABCDEFghijk'|
+|[0-9] |numbers from 0 to 9 |9|
+|[A-Za-z\-\.]+ |upper and lowercase English alphabet, -and .|'My-Website.com'|
+|(a-z)| a, - and z |'a-z'|
+|(\s+l,)| spaces or a comma| ', '|
